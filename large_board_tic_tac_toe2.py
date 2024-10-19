@@ -139,11 +139,6 @@ class TicTacToeGame:
             self.play_click_sound()  # Play click sound on button press
             # Handle the button click action...
 
-    def animate_move(self, row, col, symbol):
-        """
-        Animates the placement of a symbol and plays the associated sound.
-        """
-        self.play_symbol_placement_sound()  # Play the placement sound    
     def main_menu(self):
         """
         Sets up the main menu using pygame_menu, allowing the player to choose grid size, game mode, and symbol.
@@ -295,10 +290,17 @@ class TicTacToeGame:
         self.screen.blit(text, (10, self.height - 30))
 
     def animate_move(self, row, col, symbol):
+        """
+        Animates placement of symbol and plays sound effect
+        """
+        #play placement sound
+        self.play_symbol_placement_sound()
+        
         grid_size = self.GRID_SIZE
         cell_size = self.width / grid_size
         x = col * cell_size
         y = row * cell_size
+
 
         if symbol == 'O':
             center = (x + cell_size / 2, y + cell_size / 2)
