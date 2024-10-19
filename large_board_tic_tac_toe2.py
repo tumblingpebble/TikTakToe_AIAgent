@@ -143,11 +143,21 @@ class TicTacToeGame:
         """
         Sets up the main menu using pygame_menu, allowing the player to choose grid size, game mode, and symbol.
         """
-        background_image = pygame.image.load('UI_background.png')
+        background_image = pygame.image.load('UI_background.jpg')
         background_image = pygame.transform.scale(background_image, (self.width, self.height))
         #function to draw backgroudn image
         def draw_background():
             self.screen.blit(background_image, (0, 0))
+
+            #Font for displaying score
+            font = pygame.font.Font(pygame_menu.font.FONT_8BIT, 14)
+
+            #score text
+            score_text = f"Player 1 (O)  :  {self.score['Player 1']}  |  Player 2 (X)  :  {self.score['Player 2']}  |  Draws  :  {self.score['Draws']}"
+            text = font.render(score_text, True, self.WHITE)
+
+            #position near top of screen
+            self.screen.blit(text, (self.width // 2 - text.get_width() / 2, 20))
 
         # Create the selection effect
         highlight_selection = pygame_menu.widgets.HighlightSelection(
@@ -173,7 +183,6 @@ class TicTacToeGame:
             widget_selection_effect=highlight_selection
         )
 
-
         # Create menu with custom theme
         self.menu = pygame_menu.Menu(
             title='',
@@ -182,6 +191,14 @@ class TicTacToeGame:
             theme=theme,
             mouse_motion_selection=True
         )
+
+        #render score display at the top of the menu
+        font = pygame.font.Font(pygame_menu.font.FONT_8BIT, 18)
+        score_text = f"Player 1 (0): {self.score['Player 1']} | Player 2 (X): {self.score['Player 2']} | Draws: {self.score['Draws']}"
+        text = font.render(score_text, True, self.WHITE) 
+
+        #position near top of screen
+        self.screen.blit(text, (self.width // 2 - text.get_width() / 2, 30))
 
         # Add options (Grid Size, Game Mode, Player Symbol)
         self.menu.add.selector('Grid Size :', [(f'{i}x{i}', i) for i in range(3, 11)], onchange=self.set_grid_size, padding=(10,10))
@@ -192,7 +209,18 @@ class TicTacToeGame:
 
         # Add buttons
         self.menu.add.button('Start Game', self.start_game)
-        self.menu.add.button('Quit', pygame_menu.events.EXIT)
+        quit_button = self.menu.add.button('Quit', pygame_menu.events.EXIT)
+
+        #customize quit button to hover black
+        quit_button.set_font(
+            font=pygame_menu.font.FONT_8BIT,
+            font_size=adjusted_font_size,
+            color=self.WHITE,
+            selected_color=(0,0,0), #hover black
+            readonly_color=self.WHITE,
+            readonly_selected_color=(0,0,0),
+            background_color=None
+        )
 
         # Set up sounds
         sound = pygame_menu.sound.Sound()
@@ -208,7 +236,7 @@ class TicTacToeGame:
         Draws the TicTacToe grid and sets up the background image for the UI.  The grid size can vary based on theh player's selctions
         """
         # Load and scale background image
-        background_image = pygame.image.load('background.png')
+        background_image = pygame.image.load('background.jpg')
         background_image = pygame.transform.scale(background_image, (self.width, self.height))
         self.screen.blit(background_image, (0, 0))
 
@@ -284,10 +312,14 @@ class TicTacToeGame:
         pygame.display.update()
 
     def display_score(self):
-        font = pygame.font.Font(None, 30)
-        score_text = f"Player 1: {self.score['Player 1']}  Player 2: {self.score['Player 2']}  Draws: {self.score['Draws']}"
+        """
+        Displays the current score of Player 1, Player 2, and Draws  on the game screen
+        """
+        font = pygame.font.Font(None, 36) #set font for score display
+        score_text = f"Player 1 (0): {self.score['Player 1']} | Player 2 (X): {self.score['Player 2']} | Draws: {self.score['Draws']}"
         text = font.render(score_text, True, self.WHITE)
-        self.screen.blit(text, (10, self.height - 30))
+        text_rect = text.get_rect(center=(self.width / 2, self.height - 20)) #position at top of screen
+        self.screen.blit(text, text_rect)
 
     def animate_move(self, row, col, symbol):
         """
