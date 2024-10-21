@@ -7,10 +7,10 @@ import sys
 import time
 import logging
 
-# Set up logging
+# set up logging for tracking game actions
 logging.basicConfig(
     filename='game_log.txt',
-    filemode='a',
+    filemode='a', #append logs to game_log.txt
     level=logging.INFO,
     format='%(message)s'
 )
@@ -27,26 +27,24 @@ class TicTacToeGame:
         pygame.init()
         pygame.mixer.init()
 
-        #Audio files 
+        #audio files for game sound effects and music
         self.ui_background_music = 'sounds/ui_background_music.wav'
         self.gameplay_background_music = 'sounds/gameplay_background_music.wav'
         self.hover_sound = 'sounds/hover_sound.wav'
         self.click_sound = 'sounds/click_sound.wav'
         self.symbol_placed_sound = 'sounds/symbol_placed_sound.wav'
 
-        #Initialize screen size
+        #initialize screen size and sound effects
         self.size = self.width, self.height = size
-
-        #preload sounds with mixer
         self.hover_sound_effect = pygame.mixer.Sound(self.hover_sound)
         self.click_sound_effect = pygame.mixer.Sound(self.click_sound)
         self.symbol_placed_sound_effect = pygame.mixer.Sound(self.symbol_placed_sound)
 
-        #Start UI music loop -1 for infinite loop
+        #start UI music loop -1 in a loop
         pygame.mixer.music.load(self.ui_background_music)
         pygame.mixer.music.play(-1)
 
-        # Define colors (neon theme)
+        # define in-game and UI colors (neon theme)
         self.BLACK = (20, 20, 20)
         self.WHITE = (255, 255, 255)
         self.NEON_PINK = (255, 20, 147)
@@ -59,21 +57,21 @@ class TicTacToeGame:
         self.CROSS_COLOR = self.NEON_PINK #Player X Symbol
         self.CIRCLE_COLOR = self.NEON_BLUE #Player O Symbol
 
-        # Game settings
-        self.GRID_SIZE = 3  # Default grid size (3x3)
-        self.game_mode = 'Player vs Computer'  # Default game mode
+        #game settings grid size, mode, symbols, score, and algorithm
+        self.GRID_SIZE = 3  # default grid size (3x3)
+        self.game_mode = 'Player vs Computer'  #default game mode
         self.player_symbol = 'X'  # default players symbol
         self.ai_symbol = 'O'
         self.score = {'Player 1': 0, 'Player 2': 0, 'Draws': 0}
-        self.algorithm = 'Minimax'  # Default algorithm
+        self.algorithm = 'Minimax'  # default algorithm
 
-        # Initialize pygame
+        #initialize pygame display and clock for framerate
         pygame.init()
         self.screen = pygame.display.set_mode(self.size)
-        pygame.display.set_caption("Tic Tac Toe") #Set window title
-        self.clock = pygame.time.Clock() # Control game frame rate
+        pygame.display.set_caption("Tic Tac Toe") #set window title
+        self.clock = pygame.time.Clock() #control game frame rate
 
-        self.menu = None  # Menu initialized later
+        self.menu = None  #menu placeholder
         self.board_state = None #placeholder for the game board state
         self.game_state = None #track current game state (player turns, win state)
         self.game_over = False #game over flag
@@ -87,8 +85,7 @@ class TicTacToeGame:
     def play_symbol_placement_sound(self):
             self.symbol_placed_sound_effect.play() #play when symbol on the grid
 
-    def switch_to_gameplay_music(self):
-            #switch to gameblack background music looo when starting game
+    def switch_to_gameplay_music(self):#switch to gameplay background music loop when starting game
             pygame.mixer.music.stop() #end UI music
             pygame.mixer.music.load(self.gameplay_background_music)
             pygame.mixer.music.play(-1) #play gameplay music in loop 
@@ -99,33 +96,20 @@ class TicTacToeGame:
             pygame.mixer.music.load(self.ui_background_music)
             pygame.mixer.music.play(-1) #loop UI music
              
-    def set_grid_size(self, value, grid_size):
-        """
-        Set the grid size of the game based on the player's choice from the menu.
-        """
+    def set_grid_size(self, value, grid_size):#set grid size based on player selection
         self.GRID_SIZE = grid_size
 
-    def set_game_mode(self, value, mode):
-        """
-        Set the game mode (Player vs Player or Player vs Computer).
-        """
+    def set_game_mode(self, value, mode):#set game mode based on player selection
         self.game_mode = mode
 
-    def set_algorithm(self, value, algorithm):
-        """
-        Set the algorithm used by the AI agent (Minimax or Negamax).
-        """
+    def set_algorithm(self, value, algorithm):#set algorithm based on player selection
         self.algorithm = algorithm.lower()
 
-    def set_player_symbol(self, value, symbol):
+    def set_player_symbol(self, value, symbol):#set player symbol based on player selection
         self.player_symbol = symbol
         self.ai_symbol = 'O' if symbol == 'X' else 'X'
 
-    def start_game(self):
-        """
-        Stars the game by initializing board state and entering main game loop
-        
-        """
+    def start_game(self):#start game with player selections
         self.switch_to_gameplay_music() #switch to gameplay music
         #Create empty board with zeros
         self.board_state = np.zeros((self.GRID_SIZE, self.GRID_SIZE), dtype=int)
@@ -137,21 +121,15 @@ class TicTacToeGame:
         logging.info(f"## New Game Started: {self.GRID_SIZE}x{self.GRID_SIZE} Grid, Mode: {self.game_mode}, Algorithm: {self.algorithm.capitalize()}")
         self.main_loop()
 
-    def handle_hover(self, widget, menu):
-        """Check if mouse is hovering over a button and play hover sound."""
+    def handle_hover(self, widget, menu):#play hover sound when mouse hovers over buttons
         if widget.is_selected():
             self.play_hover_sound()
 
-    def handle_click(self, event, button_rect):
-        """Check if mouse clicks a button and play click sound."""
+    def handle_click(self, event, button_rect):#play click sound when button is clicked
         if event.type == pygame.MOUSEBUTTONDOWN and button_rect.collidepoint(event.pos):
             self.play_click_sound()  # Play click sound on button press
-            # Handle the button click action...
 
-    def main_menu(self):
-        """
-        Sets up the main menu using pygame_menu, allowing the player to choose grid size, game mode, and symbol.
-        """
+    def main_menu(self):#main menu for player selections
         background_image = pygame.image.load('UI_background.jpg')
         background_image = pygame.transform.scale(background_image, (self.width, self.height))
         #function to draw backgroudn image
@@ -168,21 +146,21 @@ class TicTacToeGame:
             #position near top of screen
             self.screen.blit(text, (self.width // 2 - text.get_width() / 2, 20))
 
-        # Create the selection effect
+        # create the selection effect
         highlight_selection = pygame_menu.widgets.HighlightSelection(
             border_width=1
         )
 
-        # Set margins using margin_xy
+        # set margins using margin_xy
         highlight_selection.margin_xy(x=5, y=5)
         screen_width = self.width
         base_font_size = 48
         scaling_factor = screen_width / 1920
         adjusted_font_size = int(base_font_size * scaling_factor)
 
-        # Use the selection effect in the theme
+        # use the selection effect in the theme
         theme = pygame_menu.themes.Theme(
-            background_color=(0, 0, 0, 0),  # Fully transparent background
+            background_color=(0, 0, 0, 0),  #fully transparent background
             title=False,
             widget_font=pygame_menu.font.FONT_8BIT,
             widget_font_size=adjusted_font_size,
@@ -192,7 +170,7 @@ class TicTacToeGame:
             widget_selection_effect=highlight_selection
         )
 
-        # Create menu with custom theme
+        #create menu with custom theme
         self.menu = pygame_menu.Menu(
             title='',
             height=self.height,
@@ -201,7 +179,7 @@ class TicTacToeGame:
             mouse_motion_selection=True
         )
 
-        # Add options (Grid Size, Game Mode, Player Symbol, Algorithm)
+        #add options (Grid Size, Game Mode, Player Symbol, Algorithm)
         self.menu.add.selector('Grid Size :', [(f'{i}x{i}', i) for i in range(3, 11)], onchange=self.set_grid_size, padding=(10,10))
         self.menu.add.selector('Game Mode :', [('Player vs Computer', 'Player vs Computer'), ('Player vs Player', 'Player vs Player')], onchange=self.set_game_mode, padding=(10,10))
         self.menu.add.selector('Your Symbol :', [('X', 'X'), ('O', 'O')], onchange=self.set_player_symbol, padding=(10,10))
@@ -210,11 +188,11 @@ class TicTacToeGame:
 
         self.menu.center_content()
 
-        # Add buttons
+        # add buttons
         start_button = self.menu.add.button('Start Game', self.start_game)
         quit_button = self.menu.add.button('Quit', pygame_menu.events.EXIT)
 
-        # Customize start button
+        # customize start button
         start_button.set_font(
             font=pygame_menu.font.FONT_8BIT,
             font_size=adjusted_font_size,
@@ -236,20 +214,20 @@ class TicTacToeGame:
             background_color=None
         )
 
-        # Set up sounds
+        #set up sounds
         sound = pygame_menu.sound.Sound()
         sound.set_sound(pygame_menu.sound.SOUND_TYPE_WIDGET_SELECTION, self.hover_sound)
         sound.set_sound(pygame_menu.sound.SOUND_TYPE_CLICK_MOUSE, self.click_sound)
         self.menu.set_sound(sound, recursive=True)
 
-        # Run the menu with the background function
+        #run the menu with the background function
         self.menu.mainloop(self.screen, bgfun=draw_background)
 
     def draw_board(self):
         """
         Draws the TicTacToe grid and sets up the background image for the UI.  The grid size can vary based on theh player's selctions
         """
-        # Load and scale background image
+        #load and scale background image
         background_image = pygame.image.load('background.jpg')
         background_image = pygame.transform.scale(background_image, (self.width, self.height))
         self.screen.blit(background_image, (0, 0))
@@ -257,7 +235,7 @@ class TicTacToeGame:
         grid_size = self.GRID_SIZE #Determine grid size
         cell_size = self.width / grid_size #calculate size of each cell
 
-        # Draw grid lines
+        # draw grid lines
         for i in range(1, grid_size):
             pygame.draw.line(self.screen, self.LINE_COLOR, (i * cell_size, 0), (i * cell_size, self.height), 2)
             pygame.draw.line(self.screen, self.LINE_COLOR, (0, i * cell_size), (self.width, i * cell_size), 2)
@@ -270,12 +248,12 @@ class TicTacToeGame:
                 x = j * cell_size
                 y = i * cell_size
                 if self.board_state[i, j] == 1:
-                    # Draw 'O'
+                    #draw 'O'
                     center = (x + cell_size / 2, y + cell_size / 2)
                     radius = cell_size / 3
                     pygame.draw.circle(self.screen, self.CIRCLE_COLOR, center, radius, 20)
                 elif self.board_state[i, j] == -1:
-                    # Draw 'X'
+                    #draw 'X'
                     start_pos = (x + cell_size / 5, y + cell_size / 5)
                     end_pos = (x + cell_size - cell_size / 5, y + cell_size - cell_size / 5)
                     pygame.draw.line(self.screen, self.CROSS_COLOR, start_pos, end_pos, 20)
@@ -283,13 +261,13 @@ class TicTacToeGame:
                     end_pos = (x + cell_size / 5, y + cell_size - cell_size / 5)
                     pygame.draw.line(self.screen, self.CROSS_COLOR, start_pos, end_pos, 20)
 
-    def check_game_over(self):
+    def check_game_over(self):#check if game is over
         if self.game_state.is_terminal():
             self.game_over = True
             self.update_score()
             self.display_winner()
 
-    def update_score(self):
+    def update_score(self):#update score based on game outcome
         if self.game_state.winner == 'Draw':
             self.score['Draws'] += 1
         elif self.game_mode == 'Player vs Computer':
@@ -298,11 +276,11 @@ class TicTacToeGame:
             else:
                 self.score['Player 2'] += 1
         else:
-            # Player vs Player mode
+            #player vs Player mode
             current_player = 'Player 1' if self.game_state.winner == self.player_symbol else 'Player 2'
             self.score[current_player] += 1
 
-    def display_winner(self):
+    def display_winner(self):#display winner message
         font = pygame.font.Font(None, 120)
         colors = [self.NEON_PINK, self.NEON_BLUE, self.NEON_GREEN, self.NEON_ORANGE]
         if self.game_state.winner == 'Draw':
@@ -310,7 +288,7 @@ class TicTacToeGame:
         else:
             message = f'{self.game_state.winner} Wins!'
 
-        for _ in range(3):
+        for _ in range(3):#flash winner message in different colors
             for color in colors:
                 text = font.render(message, True, color)
                 text_rect = text.get_rect(center=(self.width / 2, self.height / 2))
@@ -325,42 +303,37 @@ class TicTacToeGame:
         self.screen.blit(text, text_rect)
         pygame.display.update()
 
-        if self.game_state.winner != 'Draw':
+        if self.game_state.winner != 'Draw':#log the winner
             logging.info(f"Game over: {self.game_state.winner}!\n")
         else:
             logging.info("Game over: It's a draw!\n")
 
-    def display_score(self):
-        """
-        Displays the triplet counts for each player on the game screen.
-        """
+    def display_score(self):#display score on the game screen
         if self.GRID_SIZE > 3:
-            font = pygame.font.Font(None, 36)  # Set font for score display
+            font = pygame.font.Font(None, 36)  #set font for score display
         
-            # Get triplet counts
+            #get triplet counts
             O_triplets = self.game_state.count_triplets(1)
             X_triplets = self.game_state.count_triplets(-1)
             
-            # Prepare the triplet counts text
+            #prepare the triplet counts text
             triplet_text = f"Triplets - O: {O_triplets} | X: {X_triplets}"
             text = font.render(triplet_text, True, self.WHITE)
-            text_rect = text.get_rect(center=(self.width / 2, self.height - 20))  # Position at bottom of screen
+            text_rect = text.get_rect(center=(self.width / 2, self.height - 20))  #position at bottom of screen
             self.screen.blit(text, text_rect)
 
-    def animate_move(self, row, col, symbol):
-        """
-        Animates placement of symbol and plays sound effect
-        """
+    def animate_move(self, row, col, symbol):#animate player move on the grid
         #play placement sound
         self.play_symbol_placement_sound()
-        
+
+        #calculate position of symbol
         grid_size = self.GRID_SIZE
         cell_size = self.width / grid_size
         x = col * cell_size
         y = row * cell_size
 
 
-        if symbol == 'O':
+        if symbol == 'O':#animate 'O' symbol
             center = (x + cell_size / 2, y + cell_size / 2)
             radius = cell_size / 3
             for r in range(0, int(radius), 5):
@@ -369,7 +342,7 @@ class TicTacToeGame:
                 pygame.draw.circle(self.screen, self.CIRCLE_COLOR, center, r, 5)
                 pygame.display.update()
                 pygame.time.delay(20)
-        elif symbol == 'X':
+        elif symbol == 'X':#animate 'X' symbol
             for i in range(0, int(cell_size / 2), 5):
                 self.draw_board()
                 self.draw_symbols()
@@ -384,14 +357,14 @@ class TicTacToeGame:
                 pygame.time.delay(20)
 
     def main_loop(self):
+        """
+        Main game loop to handle player moves, AI moves, and game over conditions
+        """
         self.draw_board()
         self.draw_symbols()
         self.display_score()
         pygame.display.update()
         
-        #initialize current_symbol based on turn 
-        current_symbol = 'O' if self.game_state.turn_O else 'X'
-
         while True:
             self.clock.tick(30)
 
@@ -399,6 +372,17 @@ class TicTacToeGame:
                 self.switch_to_ui_music() #switch back to UI music when game ends
                 self.main_menu()
                 break
+
+            #initialize current_symbol based on game state
+            current_symbol = 'O' if self.game_state.turn_O else 'X'
+
+            #Handle AI move during player v computer and AI turn
+            if not self.game_over and self.game_mode == 'Player vs Computer' and current_symbol == self.ai_symbol:
+                # AI's turn
+                self.ai_move(current_symbol)
+                self.check_game_over()
+                if self.game_over:
+                    continue  # skip to next loop iteration
 
             #event handling loop
             for event in pygame.event.get():
@@ -415,46 +399,17 @@ class TicTacToeGame:
 
 
                     if self.board_state[row, col] == 0: #check if cell is empty
+                        #check if player turn in Player vs Computer mode
+                        if self.game_mode == 'Player vs Computer' and current_symbol != self.player_symbol:
+                            continue  #not player turn, ignore click
                         self.player_move(row, col, current_symbol)
                         self.check_game_over()
                         if self.game_over:
                             break
-                        else:
-                            current_symbol = self.ai_symbol
-
-            if not self.game_over and self.game_mode == 'Player vs Computer' and current_symbol == self.ai_symbol:
-                #AI's turn
-                self.ai_move(current_symbol)
-                self.check_game_over()
-                if self.game_over:
-                    break
-                current_symbol = self.player_symbol
             
             pygame.display.update()
-
-    def evaluate_board(self):
-        board = self.board_state
-        size = board.shape[0]
-        score = 0
-
-        lines = []
-
-        # Rows and columns
-        for i in range(size):
-            lines.append(board[i, :])  # Row
-            lines.append(board[:, i])  # Column
-
-        # Diagonals
-        diag1 = np.array([board[i, i] for i in range(size)])
-        diag2 = np.array([board[i, size - i - 1] for i in range(size)])
-        lines.append(diag1)
-        lines.append(diag2)
-
-        for line in lines:
-            score += self.evaluate_line(line)
-        return score
     
-    def format_board(self, board):
+    def format_board(self, board):#format board state for logging
         size = board.shape[0]
         board_str = ''
         for i in range(size):
@@ -470,26 +425,6 @@ class TicTacToeGame:
             board_str += row.strip() + '\n'
         return board_str.strip()
 
-    def evaluate_line(self, line):
-        score = 0
-        # Scoring for 'O'
-        if np.count_nonzero(line == 1) == 3:
-            score += 100
-        elif np.count_nonzero(line == 1) == 2 and np.count_nonzero(line == 0) == 1:
-            score += 10
-        elif np.count_nonzero(line == 1) == 1 and np.count_nonzero(line == 0) == 2:
-            score += 1
-
-        # Scoring for 'X'
-        if np.count_nonzero(line == -1) == 3:
-            score -= 100
-        elif np.count_nonzero(line == -1) == 2 and np.count_nonzero(line == 0) == 1:
-            score -= 10
-        elif np.count_nonzero(line == -1) == 1 and np.count_nonzero(line == 0) == 2:
-            score -= 1
-        return score
-
-    
     def player_move(self, row, col, current_symbol):
         """
         handle players move, place symbol and update game state
@@ -506,44 +441,40 @@ class TicTacToeGame:
         logging.info(f"**Board state after the move:**\n```\n{self.format_board(self.board_state)}\n```\n")
 
     def ai_move(self, current_symbol):
+        """
+        Handle AI's move based on the selected algorithm
+        """
+        empty_cells = np.count_nonzero(self.board_state == 0)
+        total_cells = self.GRID_SIZE * self.GRID_SIZE
+        game_progress = (total_cells - empty_cells) / total_cells
+
         # Adjust depth based on grid size
-        if self.GRID_SIZE == 3:
-            depth = 9  # Full depth for perfect play
-        elif self.GRID_SIZE == 4:
-            depth = 7
-        elif self.GRID_SIZE == 5:
-            depth = 4
-        elif self.GRID_SIZE == 6:
-            depth = 3
+        if self.GRID_SIZE <= 4:
+            max_depth = 6
         else:
-            #for larger grids >= 7x7 adjust depth based on remaining moves
-            empty_cells = np.count_nonzero(self.board_state == 0)
-            total_cells = self.GRID_SIZE * self.GRID_SIZE
+            max_depth = 2  # For 7x7 and larger grids
 
-            #calculate percentage of the board thats empty
-            empty_ratio = empty_cells / total_cells
-
-            #adjust depth based on empty cells
-            if empty_ratio > 0.8:
-                depth = 2
-            elif empty_ratio > 0.4:
-                depth = 3
-            elif empty_ratio > 0.25:
-                depth = 4
-            else:
-                depth = 5 #endgame depth
+        # Adjust depth based on game progression
+        if game_progress < 0.75:
+            depth = max_depth - 1
+        else:
+            depth = max_depth
         
         #set color based on AI's symbol
         color = 1 if self.ai_symbol == 'O' else -1
 
         # Choose the algorithm based on the player's selection
         if self.algorithm == 'minimax':
-            score, move = minimax(self.game_state, depth, True)
+            is_maximizing = self.ai_symbol == 'O'
+            score, move = minimax(self.game_state, depth, is_maximizing)
         elif self.algorithm == 'negamax':
+            color = 1 if self.ai_symbol == 'O' else -1
             score, move = negamax(self.game_state, depth, color)
         else:
-        # Default to minimax if for some reason the algorithm is not recognized
+        # Default to minimax
+            is_maximizing = self.ai_symbol == 'O'
             score, move = minimax(self.game_state, depth, True)
+
         if move:
             row, col = move
             self.board_state[row, col] = 1 if current_symbol == 'O' else -1
@@ -560,6 +491,6 @@ class TicTacToeGame:
             logging.info(f"**Board state after AI's move:**\n```\n{self.format_board(self.board_state)}\n```\n")
 
             
-if __name__ == '__main__':
+if __name__ == '__main__':#start the game
     game = TicTacToeGame()
     game.main_menu()
