@@ -1,0 +1,5191 @@
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. X O . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -83
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (1, 2).
+**Board state after the move:**
+```
+. . . . .
+. O X . .
+. X O . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -11
+**Board state after AI's move:**
+```
+. . . . .
+. O X . .
+. X O . .
+. X . O .
+. . . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. O X . .
+. X O . .
+. X X O .
+. . . . .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -20
+**Board state after AI's move:**
+```
+O . . . .
+. O X . .
+. X O . .
+. X X O .
+. . . . .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+O . . . .
+. O X . .
+. X O . .
+. X X O .
+. . . . X
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 59
+**Board state after AI's move:**
+```
+O . . . .
+. O X . .
+. X O . .
+O X X O .
+. . . . X
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+O . . . .
+. O X . .
+. X O . .
+O X X O .
+. . . X X
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -21
+**Board state after AI's move:**
+```
+O . . . .
+. O X . .
+O X O . .
+O X X O .
+. . . X X
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O . . . .
+X O X . .
+O X O . .
+O X X O .
+. . . X X
+```
+
+AI 'O' placed at position (2, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 2
+**Board state after AI's move:**
+```
+O . . . .
+X O X . .
+O X O O .
+O X X O .
+. . . X X
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+O . . . .
+X O X . .
+O X O O .
+O X X O .
+. . X X X
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 11
+**Board state after AI's move:**
+```
+O . . . .
+X O X O .
+O X O O .
+O X X O .
+. . X X X
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+O . . X .
+X O X O .
+O X O O .
+O X X O .
+. . X X X
+```
+
+AI 'O' placed at position (1, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 22
+**Board state after AI's move:**
+```
+O . . X .
+X O X O O
+O X O O .
+O X X O .
+. . X X X
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+O . . X .
+X O X O O
+O X O O X
+O X X O .
+. . X X X
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 112
+**Board state after AI's move:**
+```
+O . . X .
+X O X O O
+O X O O X
+O X X O O
+. . X X X
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+O . . X .
+X O X O O
+O X O O X
+O X X O O
+. X X X X
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 409
+**Board state after AI's move:**
+```
+O . . X O
+X O X O O
+O X O O X
+O X X O O
+. X X X X
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+O . X X O
+X O X O O
+O X O O X
+O X X O O
+. X X X X
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O O X X O
+X O X O O
+O X O O X
+O X X O O
+. X X X X
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+O O X X O
+X O X O O
+O X O O X
+O X X O O
+X X X X X
+```
+
+Game over: X!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X X . .
+. . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -83
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X X O .
+. . . . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. X O . .
+. X X O .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -10
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X X O .
+. . . . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X X O .
+. . . X .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -10
+**Board state after AI's move:**
+```
+O . . . .
+. O . . .
+. X O . .
+. X X O .
+. . . X .
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+O . . . .
+. O . . .
+X X O . .
+. X X O .
+. . . X .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 61
+**Board state after AI's move:**
+```
+O . . . .
+. O . . .
+X X O . .
+. X X O .
+. . . X O
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+O . . . .
+. O . . .
+X X O . .
+X X X O .
+. . . X O
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -39
+**Board state after AI's move:**
+```
+O . . . .
+O O . . .
+X X O . .
+X X X O .
+. . . X O
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+O X . . .
+O O . . .
+X X O . .
+X X X O .
+. . . X O
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -28
+**Board state after AI's move:**
+```
+O X . . .
+O O O . .
+X X O . .
+X X X O .
+. . . X O
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+O X . . .
+O O O . .
+X X O . .
+X X X O .
+. X . X O
+```
+
+AI 'O' placed at position (4, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 102
+**Board state after AI's move:**
+```
+O X . . .
+O O O . .
+X X O . .
+X X X O .
+. X O X O
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+O X . . .
+O O O . .
+X X O X .
+X X X O .
+. X O X O
+```
+
+AI 'O' placed at position (4, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 199
+**Board state after AI's move:**
+```
+O X . . .
+O O O . .
+X X O X .
+X X X O .
+O X O X O
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+O X . . .
+O O O . .
+X X O X X
+X X X O .
+O X O X O
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 279
+**Board state after AI's move:**
+```
+O X . O .
+O O O . .
+X X O X X
+X X X O .
+O X O X O
+```
+
+Player 'X' placed at position (1, 3).
+**Board state after the move:**
+```
+O X . O .
+O O O X .
+X X O X X
+X X X O .
+O X O X O
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 289
+**Board state after AI's move:**
+```
+O X . O O
+O O O X .
+X X O X X
+X X X O .
+O X O X O
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+O X . O O
+O O O X X
+X X O X X
+X X X O .
+O X O X O
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X O O O
+O O O X X
+X X O X X
+X X X O .
+O X O X O
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+O X O O O
+O O O X X
+X X O X X
+X X X O X
+O X O X O
+```
+
+Game over: It's a draw!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X . . .
+. . X . .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+O . O . .
+. X . . .
+. . X . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+O X O . .
+. X . . .
+. . X . .
+```
+
+AI 'O' placed at position (2, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 1
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+O X O O .
+. X . . .
+. . X . .
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+O X O O X
+. X . . .
+. . X . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 20
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+O X O O X
+. X . . .
+. . X . .
+```
+
+Player 'X' placed at position (0, 0).
+**Board state after the move:**
+```
+X . . . .
+. O . . .
+O X O O X
+. X . . .
+. . X . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 119
+**Board state after AI's move:**
+```
+X . . . .
+. O . . .
+O X O O X
+. X . O .
+. . X . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+X . . . .
+. O . . .
+O X O O X
+. X . O .
+. . X X .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 120
+**Board state after AI's move:**
+```
+X . . . .
+. O . O .
+O X O O X
+. X . O .
+. . X X .
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+X . X . .
+. O . O .
+O X O O X
+. X . O .
+. . X X .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 221
+**Board state after AI's move:**
+```
+X . X . .
+. O O O .
+O X O O X
+. X . O .
+. . X X .
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+X . X . .
+. O O O X
+O X O O X
+. X . O .
+. . X X .
+```
+
+AI 'O' placed at position (3, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 339
+**Board state after AI's move:**
+```
+X . X . .
+. O O O X
+O X O O X
+. X O O .
+. . X X .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+X . X . .
+. O O O X
+O X O O X
+. X O O .
+. X X X .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 321
+**Board state after AI's move:**
+```
+X . X . O
+. O O O X
+O X O O X
+. X O O .
+. X X X .
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+X X X . O
+. O O O X
+O X O O X
+. X O O .
+. X X X .
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 600
+**Board state after AI's move:**
+```
+X X X . O
+. O O O X
+O X O O X
+. X O O O
+. X X X .
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+X X X X O
+. O O O X
+O X O O X
+. X O O O
+. X X X .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 901
+**Board state after AI's move:**
+```
+X X X X O
+. O O O X
+O X O O X
+. X O O O
+. X X X O
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+X X X X O
+X O O O X
+O X O O X
+. X O O O
+. X X X O
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 1000
+**Board state after AI's move:**
+```
+X X X X O
+X O O O X
+O X O O X
+O X O O O
+. X X X O
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+X X X X O
+X O O O X
+O X O O X
+O X O O O
+X X X X O
+```
+
+Game over: O!
+
+## New Game Started: 6x6 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. X . . . .
+. . . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 3
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . . . . .
+. X . . . .
+. . . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . . . . .
+. X X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 21
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . . O . .
+. X X . . .
+. . . . . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . . O . .
+. X X X . .
+. . . . . .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 18
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . . O . .
+. X X X O .
+. . . . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 80
+**Board state after AI's move:**
+```
+. . . . . .
+. O . . . .
+. . O . . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+Player 'X' placed at position (5, 2).
+**Board state after the move:**
+```
+. . . . . .
+. O . . . .
+. . O . . .
+. . X O . .
+. X X X O .
+. . X . . .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 53
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . . .
+. . O . . .
+. . X O . .
+. X X X O .
+. . X . . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+O . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X X O .
+. . X . . .
+```
+
+AI 'O' placed at position (5, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 40
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+O . . . . .
+. O . . . .
+. . O X . .
+. . X O X .
+. X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -55
+**Board state after AI's move:**
+```
+O . . . . .
+. O O . . .
+. . O X . .
+. . X O X .
+. X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+O . . . . .
+. O O . . .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 163
+**Board state after AI's move:**
+```
+O . . . . .
+. O O O . .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+O . . . . .
+. O O O X .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 170
+**Board state after AI's move:**
+```
+O . O . . .
+. O O O X .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+O X O . . .
+. O O O X .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 369
+**Board state after AI's move:**
+```
+O X O O . .
+. O O O X .
+. . O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+O X O O . .
+. O O O X .
+. X O X . .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 268
+**Board state after AI's move:**
+```
+O X O O . .
+. O O O X .
+. X O X O .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (0, 5).
+**Board state after the move:**
+```
+O X O O . X
+. O O O X .
+. X O X O .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 350
+**Board state after AI's move:**
+```
+O X O O . X
+. O O O X .
+O X O X O .
+. . X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+O X O O . X
+. O O O X .
+O X O X O .
+. X X O X .
+X X X X O .
+. . X . . O
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 449
+**Board state after AI's move:**
+```
+O X O O . X
+. O O O X .
+O X O X O .
+O X X O X .
+X X X X O .
+. . X . . O
+```
+
+Player 'X' placed at position (5, 0).
+**Board state after the move:**
+```
+O X O O . X
+. O O O X .
+O X O X O .
+O X X O X .
+X X X X O .
+X . X . . O
+```
+
+AI 'O' placed at position (3, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 539
+**Board state after AI's move:**
+```
+O X O O . X
+. O O O X .
+O X O X O .
+O X X O X O
+X X X X O .
+X . X . . O
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O X O O . X
+X O O O X .
+O X O X O .
+O X X O X O
+X X X X O .
+X . X . . O
+```
+
+AI 'O' placed at position (4, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 459
+**Board state after AI's move:**
+```
+O X O O . X
+X O O O X .
+O X O X O .
+O X X O X O
+X X X X O O
+X . X . . O
+```
+
+Player 'X' placed at position (5, 1).
+**Board state after the move:**
+```
+O X O O . X
+X O O O X .
+O X O X O .
+O X X O X O
+X X X X O O
+X X X . . O
+```
+
+AI 'O' placed at position (5, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 469
+**Board state after AI's move:**
+```
+O X O O . X
+X O O O X .
+O X O X O .
+O X X O X O
+X X X X O O
+X X X . O O
+```
+
+Player 'X' placed at position (2, 5).
+**Board state after the move:**
+```
+O X O O . X
+X O O O X .
+O X O X O X
+O X X O X O
+X X X X O O
+X X X . O O
+```
+
+AI 'O' placed at position (5, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 380
+**Board state after AI's move:**
+```
+O X O O . X
+X O O O X .
+O X O X O X
+O X X O X O
+X X X X O O
+X X X O O O
+```
+
+Player 'X' placed at position (0, 4).
+**Board state after the move:**
+```
+O X O O X X
+X O O O X .
+O X O X O X
+O X X O X O
+X X X X O O
+X X X O O O
+```
+
+AI 'O' placed at position (1, 5).
+Algorithm used: Negamax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O X O O X X
+X O O O X O
+O X O X O X
+O X X O X O
+X X X X O O
+X X X O O O
+```
+
+Game over: X!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+```
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 10
+**Board state after AI's move:**
+```
+. . . . .
+. . . . .
+. . O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. X O . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 17
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X X . .
+. . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 80
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. X X O .
+. . . . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X O X .
+. X X O .
+. . . . .
+```
+
+AI 'O' placed at position (4, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 71
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X O X .
+. X X O .
+. O . . .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 160
+**Board state after AI's move:**
+```
+. O . . .
+. O . . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+Player 'X' placed at position (1, 2).
+**Board state after the move:**
+```
+. O . . .
+. O X . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 163
+**Board state after AI's move:**
+```
+O O . . .
+. O X . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+O O . X .
+. O X . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 183
+**Board state after AI's move:**
+```
+O O O X .
+. O X . .
+. X O X .
+. X X O .
+. O . . X
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+O O O X .
+. O X . .
+X X O X .
+. X X O .
+. O . . X
+```
+
+AI 'O' placed at position (4, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 172
+**Board state after AI's move:**
+```
+O O O X .
+. O X . .
+X X O X .
+. X X O .
+. O O . X
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+O O O X .
+. O X . .
+X X O X .
+X X X O .
+. O O . X
+```
+
+AI 'O' placed at position (4, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 110
+**Board state after AI's move:**
+```
+O O O X .
+. O X . .
+X X O X .
+X X X O .
+. O O O X
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+O O O X .
+. O X . .
+X X O X .
+X X X O .
+X O O O X
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 291
+**Board state after AI's move:**
+```
+O O O X .
+. O X O .
+X X O X .
+X X X O .
+X O O O X
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O O O X .
+X O X O .
+X X O X .
+X X X O .
+X O O O X
+```
+
+AI 'O' placed at position (1, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 410
+**Board state after AI's move:**
+```
+O O O X .
+X O X O O
+X X O X .
+X X X O .
+X O O O X
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+O O O X .
+X O X O O
+X X O X X
+X X X O .
+X O O O X
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O O O X O
+X O X O O
+X X O X X
+X X X O .
+X O O O X
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+O O O X O
+X O X O O
+X X O X X
+X X X O X
+X O O O X
+```
+
+Game over: X!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. . X . .
+. . . . .
+```
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . X . .
+. . . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: -1
+**Board state after AI's move:**
+```
+. . . . .
+. . O . .
+. . X . .
+. . . . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . O . .
+. . X . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 4
+**Board state after AI's move:**
+```
+. . . . .
+. . O O .
+. . X . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 3).
+**Board state after the move:**
+```
+. . . . .
+. . O O .
+. . X . .
+. X . X .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. X . X .
+. . . . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. X . X .
+X . . . .
+```
+
+AI 'O' placed at position (3, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 15
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. X O X .
+X . . . .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. X O X .
+X . . . X
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 9
+**Board state after AI's move:**
+```
+. . O . .
+. O O O .
+. . X . .
+. X O X .
+X . . . X
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . O . .
+. O O O .
+. . X . .
+. X O X .
+X . X . X
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -56
+**Board state after AI's move:**
+```
+. . O . .
+. O O O .
+O . X . .
+. X O X .
+X . X . X
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+. . O . .
+. O O O .
+O . X . X
+. X O X .
+X . X . X
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Minimax
+AI evaluated move with score: -86
+**Board state after AI's move:**
+```
+. . O . .
+. O O O .
+O . X . X
+. X O X O
+X . X . X
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+. . O . .
+. O O O X
+O . X . X
+. X O X O
+X . X . X
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -71
+**Board state after AI's move:**
+```
+. . O . .
+. O O O X
+O O X . X
+. X O X O
+X . X . X
+```
+
+Player 'X' placed at position (0, 4).
+**Board state after the move:**
+```
+. . O . X
+. O O O X
+O O X . X
+. X O X O
+X . X . X
+```
+
+AI 'O' placed at position (2, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 240
+**Board state after AI's move:**
+```
+. . O . X
+. O O O X
+O O X O X
+. X O X O
+X . X . X
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+. X O . X
+. O O O X
+O O X O X
+. X O X O
+X . X . X
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 421
+**Board state after AI's move:**
+```
+. X O O X
+. O O O X
+O O X O X
+. X O X O
+X . X . X
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. X O O X
+. O O O X
+O O X O X
+. X O X O
+X . X X X
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 710
+**Board state after AI's move:**
+```
+. X O O X
+. O O O X
+O O X O X
+O X O X O
+X . X X X
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. X O O X
+. O O O X
+O O X O X
+O X O X O
+X X X X X
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 1000
+**Board state after AI's move:**
+```
+. X O O X
+O O O O X
+O O X O X
+O X O X O
+X X X X X
+```
+
+Player 'X' placed at position (0, 0).
+**Board state after the move:**
+```
+X X O O X
+O O O O X
+O O X O X
+O X O X O
+X X X X X
+```
+
+Game over: O!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. X . . .
+. . . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 1
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. X . . .
+. . . . .
+. . . . .
+```
+
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X X . .
+. . . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -4
+**Board state after AI's move:**
+```
+. . . . .
+. O O . .
+. X X . .
+. . . . .
+. . . . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . .
+. O O . .
+. X X X .
+. . . . .
+. . . . .
+```
+
+AI 'O' placed at position (3, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -13
+**Board state after AI's move:**
+```
+. . . . .
+. O O . .
+. X X X .
+. . O . .
+. . . . .
+```
+
+Player 'X' placed at position (1, 3).
+**Board state after the move:**
+```
+. . . . .
+. O O X .
+. X X X .
+. . O . .
+. . . . .
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -22
+**Board state after AI's move:**
+```
+. . O . .
+. O O X .
+. X X X .
+. . O . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . O . .
+. O O X .
+. X X X .
+. X O . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -29
+**Board state after AI's move:**
+```
+. . O . .
+O O O X .
+. X X X .
+. X O . .
+. . . . .
+```
+
+Player 'X' placed at position (0, 0).
+**Board state after the move:**
+```
+X . O . .
+O O O X .
+. X X X .
+. X O . .
+. . . . .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 81
+**Board state after AI's move:**
+```
+X . O . .
+O O O X .
+O X X X .
+. X O . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+X . O . .
+O O O X .
+O X X X .
+X X O . .
+. . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+X . O . .
+O O O X .
+O X X X .
+X X O O .
+. . . . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+X . O . .
+O O O X .
+O X X X .
+X X O O .
+X . . . .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -98
+**Board state after AI's move:**
+```
+X . O . O
+O O O X .
+O X X X .
+X X O O .
+X . . . .
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+X . O X O
+O O O X .
+O X X X .
+X X O O .
+X . . . .
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -99
+**Board state after AI's move:**
+```
+X O O X O
+O O O X .
+O X X X .
+X X O O .
+X . . . .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+X O O X O
+O O O X .
+O X X X .
+X X O O .
+X X . . .
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -100
+**Board state after AI's move:**
+```
+X O O X O
+O O O X .
+O X X X .
+X X O O O
+X X . . .
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+X O O X O
+O O O X .
+O X X X X
+X X O O O
+X X . . .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+X O O X O
+O O O X .
+O X X X X
+X X O O O
+X X . . O
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+X O O X O
+O O O X .
+O X X X X
+X X O O O
+X X . X O
+```
+
+AI 'O' placed at position (1, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+X O O X O
+O O O X O
+O X X X X
+X X O O O
+X X . X O
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+X O O X O
+O O O X O
+O X X X X
+X X O O O
+X X X X O
+```
+
+Game over: X!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. . X . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 1
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. . . . .
+. . X . .
+. . . . .
+```
+
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. . X . .
+. . X . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -2
+**Board state after AI's move:**
+```
+. . . . .
+. O O . .
+. . X . .
+. . X . .
+. . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . .
+. O O . .
+. . X . .
+. . X . .
+. . X . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -1
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. . X . .
+. . X . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+. . X X .
+. . X . .
+. . X . .
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -2
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. O X X .
+. . X . .
+. . X . .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+. O X X .
+. . X . .
+. X X . .
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -2
+**Board state after AI's move:**
+```
+. . . O .
+. O O O .
+. O X X .
+. . X . .
+. X X . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . O .
+. O O O .
+. O X X .
+. X X . .
+. X X . .
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -3
+**Board state after AI's move:**
+```
+. O . O .
+. O O O .
+. O X X .
+. X X . .
+. X X . .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+. O . O .
+. O O O .
+. O X X .
+X X X . .
+. X X . .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -2
+**Board state after AI's move:**
+```
+. O . O .
+. O O O .
+O O X X .
+X X X . .
+. X X . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+. O . O .
+. O O O .
+O O X X .
+X X X . .
+X X X . .
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 88
+**Board state after AI's move:**
+```
+. O . O .
+. O O O .
+O O X X O
+X X X . .
+X X X . .
+```
+
+Player 'X' placed at position (3, 3).
+**Board state after the move:**
+```
+. O . O .
+. O O O .
+O O X X O
+X X X X .
+X X X . .
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 280
+**Board state after AI's move:**
+```
+. O O O .
+. O O O .
+O O X X O
+X X X X .
+X X X . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. O O O .
+. O O O .
+O O X X O
+X X X X .
+X X X X .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 290
+**Board state after AI's move:**
+```
+. O O O .
+. O O O .
+O O X X O
+X X X X .
+X X X X O
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+. O O O .
+. O O O .
+O O X X O
+X X X X X
+X X X X O
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 190
+**Board state after AI's move:**
+```
+O O O O .
+. O O O .
+O O X X O
+X X X X X
+X X X X O
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+O O O O .
+. O O O X
+O O X X O
+X X X X X
+X X X X O
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O O O O O
+. O O O X
+O O X X O
+X X X X X
+X X X X O
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O O O O O
+X O O O X
+O O X X O
+X X X X X
+X X X X O
+```
+
+Game over: X!
+
+## New Game Started: 3x3 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (1, 1).
+**Board state after the move:**
+```
+. . .
+. X .
+. . .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O . .
+. X .
+. . .
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O . .
+X X .
+. . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O . .
+X X O
+. . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+O . .
+X X O
+. X .
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O O .
+X X O
+. X .
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+O O X
+X X O
+. X .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O O X
+X X O
+O X .
+```
+
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+O O X
+X X O
+O X X
+```
+
+Game over: It's a draw!
+
+## New Game Started: 3x3 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (1, 1).
+**Board state after the move:**
+```
+. . .
+. X .
+. . .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O . .
+. X .
+. . .
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+O X .
+. X .
+. . .
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X .
+. X .
+. O .
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+O X .
+. X .
+X O .
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X O
+. X .
+X O .
+```
+
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+O X O
+. X .
+X O X
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X O
+O X .
+X O X
+```
+
+Player 'X' placed at position (1, 2).
+**Board state after the move:**
+```
+O X O
+O X X
+X O X
+```
+
+Game over: It's a draw!
+
+## New Game Started: 4x4 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . .
+. . . .
+. X . .
+. . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: -9
+**Board state after AI's move:**
+```
+. . . .
+. . O .
+. X . .
+. . . .
+```
+
+Player 'X' placed at position (1, 1).
+**Board state after the move:**
+```
+. . . .
+. X O .
+. X . .
+. . . .
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -93
+**Board state after AI's move:**
+```
+. . . .
+O X O .
+. X . .
+. . . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . .
+O X O .
+. X . .
+. X . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Minimax
+AI evaluated move with score: -20
+**Board state after AI's move:**
+```
+. . . .
+O X O O
+. X . .
+. X . .
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+. X . .
+O X O O
+. X . .
+. X . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 88
+**Board state after AI's move:**
+```
+. X . .
+O X O O
+. X . .
+. X . O
+```
+
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+. X . .
+O X O O
+. X X .
+. X . O
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 80
+**Board state after AI's move:**
+```
+. X . O
+O X O O
+. X X .
+. X . O
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+. X . O
+O X O O
+X X X .
+. X . O
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X . O
+O X O O
+X X X .
+. X . O
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+O X . O
+O X O O
+X X X X
+. X . O
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 300
+**Board state after AI's move:**
+```
+O X O O
+O X O O
+X X X X
+. X . O
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+O X O O
+O X O O
+X X X X
+. X X O
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O X O O
+O X O O
+X X X X
+O X X O
+```
+
+Game over: X!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . . . .
+. . X . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 1
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. . . . .
+. . X . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 3).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. . . . .
+. . X X .
+. . . . .
+```
+
+AI 'O' placed at position (3, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 2
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. . . . .
+. O X X .
+. . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. . . . .
+. O X X .
+. . X . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 19
+**Board state after AI's move:**
+```
+. . . . .
+. O . . .
+. . O . .
+. O X X .
+. . X . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . .
+. O . . .
+. X O . .
+. O X X .
+. . X . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 100
+**Board state after AI's move:**
+```
+. . . . .
+. O O . .
+. X O . .
+. O X X .
+. . X . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . .
+. O O . .
+. X O . .
+. O X X .
+. . X X .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 111
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. X O . .
+. O X X .
+. . X X .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+. X O X .
+. O X X .
+. . X X .
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 22
+**Board state after AI's move:**
+```
+. . O . .
+. O O O .
+. X O X .
+. O X X .
+. . X X .
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+. . O . .
+. O O O X
+. X O X .
+. O X X .
+. . X X .
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 121
+**Board state after AI's move:**
+```
+. . O . .
+. O O O X
+. X O X O
+. O X X .
+. . X X .
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+. . O . .
+. O O O X
+. X O X O
+. O X X X
+. . X X .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 120
+**Board state after AI's move:**
+```
+. . O . .
+. O O O X
+O X O X O
+. O X X X
+. . X X .
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+. . O . .
+X O O O X
+O X O X O
+. O X X X
+. . X X .
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 210
+**Board state after AI's move:**
+```
+. O O . .
+X O O O X
+O X O X O
+. O X X X
+. . X X .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. O O . .
+X O O O X
+O X O X O
+. O X X X
+. X X X .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 309
+**Board state after AI's move:**
+```
+. O O . O
+X O O O X
+O X O X O
+. O X X X
+. X X X .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+. O O . O
+X O O O X
+O X O X O
+X O X X X
+. X X X .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 400
+**Board state after AI's move:**
+```
+O O O . O
+X O O O X
+O X O X O
+X O X X X
+. X X X .
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+O O O X O
+X O O O X
+O X O X O
+X O X X X
+. X X X .
+```
+
+AI 'O' placed at position (4, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 1000
+**Board state after AI's move:**
+```
+O O O X O
+X O O O X
+O X O X O
+X O X X X
+O X X X .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+O O O X O
+X O O O X
+O X O X O
+X O X X X
+O X X X X
+```
+
+Game over: O!
+
+## New Game Started: 5x5 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (2, 2).
+**Board state after the move:**
+```
+. . . . .
+. . . . .
+. . X . .
+. . . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: -99
+**Board state after AI's move:**
+```
+. . . . .
+. . O . .
+. . X . .
+. . . . .
+. . . . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . .
+. . O . .
+. . X . .
+. X . . .
+. . . . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Minimax
+AI evaluated move with score: -31
+**Board state after AI's move:**
+```
+. . . . .
+. . O O .
+. . X . .
+. X . . .
+. . . . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+. . . . .
+. . O O .
+. . X . .
+. X . . .
+X . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -94
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+. . X . .
+. X . . .
+X . . . .
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+X . X . .
+. X . . .
+X . . . .
+```
+
+AI 'O' placed at position (2, 3).
+Algorithm used: Minimax
+AI evaluated move with score: -98
+**Board state after AI's move:**
+```
+. . . . .
+. O O O .
+X . X O .
+. X . . .
+X . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . .
+. O O O .
+X . X O .
+. X . . .
+X . X . .
+```
+
+AI 'O' placed at position (0, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -181
+**Board state after AI's move:**
+```
+. O . . .
+. O O O .
+X . X O .
+. X . . .
+X . X . .
+```
+
+Player 'X' placed at position (3, 3).
+**Board state after the move:**
+```
+. O . . .
+. O O O .
+X . X O .
+. X . X .
+X . X . .
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -95
+**Board state after AI's move:**
+```
+. O . . .
+. O O O .
+X O X O .
+. X . X .
+X . X . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. O . . .
+. O O O .
+X O X O .
+. X X X .
+X . X . .
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Minimax
+AI evaluated move with score: -71
+**Board state after AI's move:**
+```
+. O . . .
+. O O O .
+X O X O O
+. X X X .
+X . X . .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+. O . . .
+. O O O .
+X O X O O
+X X X X .
+X . X . .
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 201
+**Board state after AI's move:**
+```
+. O . O .
+. O O O .
+X O X O O
+X X X X .
+X . X . .
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+. O X O .
+. O O O .
+X O X O O
+X X X X .
+X . X . .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 400
+**Board state after AI's move:**
+```
+. O X O O
+. O O O .
+X O X O O
+X X X X .
+X . X . .
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+. O X O O
+. O O O X
+X O X O O
+X X X X .
+X . X . .
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 400
+**Board state after AI's move:**
+```
+. O X O O
+. O O O X
+X O X O O
+X X X X O
+X . X . .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+. O X O O
+. O O O X
+X O X O O
+X X X X O
+X . X . X
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O O X O O
+. O O O X
+X O X O O
+X X X X O
+X . X . X
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+O O X O O
+X O O O X
+X O X O O
+X X X X O
+X . X . X
+```
+
+AI 'O' placed at position (4, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O O X O O
+X O O O X
+X O X O O
+X X X X O
+X O X . X
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+O O X O O
+X O O O X
+X O X O O
+X X X X O
+X O X X X
+```
+
+Game over: X!
+
+## New Game Started: 6x6 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. X . . . .
+. . . . . .
+```
+
+AI 'O' placed at position (3, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 12
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . O . . .
+. X . . . .
+. . . . . .
+```
+
+Player 'X' placed at position (3, 1).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. X O . . .
+. X . . . .
+. . . . . .
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 18
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. O . . . .
+. X O . . .
+. X . . . .
+. . . . . .
+```
+
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. O . . . .
+. X O . . .
+. X X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (4, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 82
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. O . . . .
+. X O . . .
+. X X O . .
+. . . . . .
+```
+
+Player 'X' placed at position (3, 3).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. O . . . .
+. X O X . .
+. X X O . .
+. . . . . .
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 69
+**Board state after AI's move:**
+```
+. . . . . .
+O . . . . .
+. O . . . .
+. X O X . .
+. X X O . .
+. . . . . .
+```
+
+Player 'X' placed at position (5, 3).
+**Board state after the move:**
+```
+. . . . . .
+O . . . . .
+. O . . . .
+. X O X . .
+. X X O . .
+. . . X . .
+```
+
+AI 'O' placed at position (5, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 54
+**Board state after AI's move:**
+```
+. . . . . .
+O . . . . .
+. O . . . .
+. X O X . .
+. X X O . .
+. O . X . .
+```
+
+Player 'X' placed at position (4, 4).
+**Board state after the move:**
+```
+. . . . . .
+O . . . . .
+. O . . . .
+. X O X . .
+. X X O X .
+. O . X . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -16
+**Board state after AI's move:**
+```
+. . . . . .
+O O . . . .
+. O . . . .
+. X O X . .
+. X X O X .
+. O . X . .
+```
+
+Player 'X' placed at position (3, 5).
+**Board state after the move:**
+```
+. . . . . .
+O O . . . .
+. O . . . .
+. X O X . X
+. X X O X .
+. O . X . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Minimax
+AI evaluated move with score: -6
+**Board state after AI's move:**
+```
+. . . . . .
+O O . . . .
+. O O . . .
+. X O X . X
+. X X O X .
+. O . X . .
+```
+
+Player 'X' placed at position (5, 5).
+**Board state after the move:**
+```
+. . . . . .
+O O . . . .
+. O O . . .
+. X O X . X
+. X X O X .
+. O . X . X
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 26
+**Board state after AI's move:**
+```
+. . . . . .
+O O O . . .
+. O O . . .
+. X O X . X
+. X X O X .
+. O . X . X
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . . .
+O O O . . .
+. O O X . .
+. X O X . X
+. X X O X .
+. O . X . X
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 111
+**Board state after AI's move:**
+```
+. . . . . .
+O O O . . .
+O O O X . .
+. X O X . X
+. X X O X .
+. O . X . X
+```
+
+Player 'X' placed at position (1, 3).
+**Board state after the move:**
+```
+. . . . . .
+O O O X . .
+O O O X . .
+. X O X . X
+. X X O X .
+. O . X . X
+```
+
+AI 'O' placed at position (3, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 218
+**Board state after AI's move:**
+```
+. . . . . .
+O O O X . .
+O O O X . .
+O X O X . X
+. X X O X .
+. O . X . X
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+. . . . . .
+O O O X . .
+O O O X . .
+O X O X . X
+X X X O X .
+. O . X . X
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 407
+**Board state after AI's move:**
+```
+. . . O . .
+O O O X . .
+O O O X . .
+O X O X . X
+X X X O X .
+. O . X . X
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+. . . O . .
+O O O X . .
+O O O X . .
+O X O X X X
+X X X O X .
+. O . X . X
+```
+
+AI 'O' placed at position (0, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 379
+**Board state after AI's move:**
+```
+. . O O . .
+O O O X . .
+O O O X . .
+O X O X X X
+X X X O X .
+. O . X . X
+```
+
+Player 'X' placed at position (4, 5).
+**Board state after the move:**
+```
+. . O O . .
+O O O X . .
+O O O X . .
+O X O X X X
+X X X O X X
+. O . X . X
+```
+
+AI 'O' placed at position (5, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 288
+**Board state after AI's move:**
+```
+. . O O . .
+O O O X . .
+O O O X . .
+O X O X X X
+X X X O X X
+. O . X O X
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+. . O O . .
+O O O X . .
+O O O X X .
+O X O X X X
+X X X O X X
+. O . X O X
+```
+
+AI 'O' placed at position (5, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 279
+**Board state after AI's move:**
+```
+. . O O . .
+O O O X . .
+O O O X X .
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+. . O O . .
+O O O X X .
+O O O X X .
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+AI 'O' placed at position (1, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 290
+**Board state after AI's move:**
+```
+. . O O . .
+O O O X X O
+O O O X X .
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+Player 'X' placed at position (2, 5).
+**Board state after the move:**
+```
+. . O O . .
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+AI 'O' placed at position (0, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 190
+**Board state after AI's move:**
+```
+. . O O . O
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+Player 'X' placed at position (0, 4).
+**Board state after the move:**
+```
+. . O O X O
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O . O O X O
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+O X O O X O
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+. O O X O X
+```
+
+AI 'O' placed at position (5, 0).
+Algorithm used: Minimax
+AI evaluated move with score: -1000
+**Board state after AI's move:**
+```
+O X O O X O
+O O O X X O
+O O O X X X
+O X O X X X
+X X X O X X
+O O O X O X
+```
+
+Game over: X!
+
+## New Game Started: 6x6 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (4, 2).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . . . . .
+. . X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 4
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . . O . .
+. . X . . .
+. . . . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . . . . .
+. . X O . .
+. . X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 15
+**Board state after AI's move:**
+```
+. . . . . .
+. . . . . .
+. . O . . .
+. . X O . .
+. . X . . .
+. . . . . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . . .
+. . . . . .
+. . O X . .
+. . X O . .
+. . X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (1, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 77
+**Board state after AI's move:**
+```
+. . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. . X . . .
+. . . . . .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X . . .
+. . . . . .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 67
+**Board state after AI's move:**
+```
+. . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X . O .
+. . . . . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+AI 'O' placed at position (0, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 38
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . . .
+. . O X . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+O . . . . .
+. O . . X .
+. . O X . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+AI 'O' placed at position (2, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -20
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+. . X O . .
+. X X X O .
+. . . . . .
+```
+
+Player 'X' placed at position (5, 2).
+**Board state after the move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+. . X O . .
+. X X X O .
+. . X . . .
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -18
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+. . X O O .
+. X X X O .
+. . X . . .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+X . X O O .
+. X X X O .
+. . X . . .
+```
+
+AI 'O' placed at position (3, 1).
+Algorithm used: Negamax
+AI evaluated move with score: 91
+**Board state after AI's move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+X O X O O .
+. X X X O .
+. . X . . .
+```
+
+Player 'X' placed at position (5, 0).
+**Board state after the move:**
+```
+O . . . . .
+. O . . X .
+. O O X . .
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 31
+**Board state after AI's move:**
+```
+O . . . . .
+. O . O X .
+. O O X . .
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+Player 'X' placed at position (0, 5).
+**Board state after the move:**
+```
+O . . . . X
+. O . O X .
+. O O X . .
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+AI 'O' placed at position (1, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 130
+**Board state after AI's move:**
+```
+O . . . . X
+. O . O X O
+. O O X . .
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+Player 'X' placed at position (2, 5).
+**Board state after the move:**
+```
+O . . . . X
+. O . O X O
+. O O X . X
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+AI 'O' placed at position (0, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 211
+**Board state after AI's move:**
+```
+O . . O . X
+. O . O X O
+. O O X . X
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+Player 'X' placed at position (2, 4).
+**Board state after the move:**
+```
+O . . O . X
+. O . O X O
+. O O X X X
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 119
+**Board state after AI's move:**
+```
+O . . O O X
+. O . O X O
+. O O X X X
+X O X O O .
+. X X X O .
+X . X . . .
+```
+
+Player 'X' placed at position (5, 1).
+**Board state after the move:**
+```
+O . . O O X
+. O . O X O
+. O O X X X
+X O X O O .
+. X X X O .
+X X X . . .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 289
+**Board state after AI's move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+. X X X O .
+X X X . . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+X X X X O .
+X X X . . .
+```
+
+AI 'O' placed at position (4, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 289
+**Board state after AI's move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X . . .
+```
+
+Player 'X' placed at position (5, 3).
+**Board state after the move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X . .
+```
+
+AI 'O' placed at position (5, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 299
+**Board state after AI's move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X . O
+```
+
+Player 'X' placed at position (5, 4).
+**Board state after the move:**
+```
+O . . O O X
+. O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X X O
+```
+
+AI 'O' placed at position (1, 0).
+Algorithm used: Negamax
+AI evaluated move with score: 209
+**Board state after AI's move:**
+```
+O . . O O X
+O O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X X O
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+O X . O O X
+O O . O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X X O
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X . O O X
+O O O O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X X O
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+O X X O O X
+O O O O X O
+O O O X X X
+X O X O O .
+X X X X O O
+X X X X X O
+```
+
+AI 'O' placed at position (3, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+O X X O O X
+O O O O X O
+O O O X X X
+X O X O O O
+X X X X O O
+X X X X X O
+```
+
+Game over: It's a draw!
+
+## New Game Started: 7x7 Grid, Mode: Player vs Computer, Algorithm: Negamax
+Player 'X' placed at position (5, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. X . . . . .
+. . . . . . .
+```
+
+AI 'O' placed at position (4, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -7
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . O . . . .
+. X . . . . .
+. . . . . . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . O X . . .
+. X . . . . .
+. . . . . . .
+```
+
+AI 'O' placed at position (3, 1).
+Algorithm used: Negamax
+AI evaluated move with score: -5
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. O . . . . .
+. . O X . . .
+. X . . . . .
+. . . . . . .
+```
+
+Player 'X' placed at position (4, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. O . . . . .
+. X O X . . .
+. X . . . . .
+. . . . . . .
+```
+
+AI 'O' placed at position (5, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 2
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. O . . . . .
+. X O X . . .
+. X . O . . .
+. . . . . . .
+```
+
+Player 'X' placed at position (6, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. O . . . . .
+. X O X . . .
+. X . O . . .
+. X . . . . .
+```
+
+AI 'O' placed at position (2, 0).
+Algorithm used: Negamax
+AI evaluated move with score: -21
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+O . . . . . .
+. O . . . . .
+. X O X . . .
+. X . O . . .
+. X . . . . .
+```
+
+Player 'X' placed at position (5, 2).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+O . . . . . .
+. O . . . . .
+. X O X . . .
+. X X O . . .
+. X . . . . .
+```
+
+AI 'O' placed at position (6, 4).
+Algorithm used: Negamax
+AI evaluated move with score: -50
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+O . . . . . .
+. O . . . . .
+. X O X . . .
+. X X O . . .
+. X . . O . .
+```
+
+Player 'X' placed at position (6, 3).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+O . . . . . .
+. O . . . . .
+. X O X . . .
+. X X O . . .
+. X . X O . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Negamax
+AI evaluated move with score: -127
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+O . O . . . .
+. O . . . . .
+. X O X . . .
+. X X O . . .
+. X . X O . .
+```
+
+Player 'X' placed at position (5, 4).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+O . O . . . .
+. O . . . . .
+. X O X . . .
+. X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Negamax
+AI evaluated move with score: -21
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . O . . .
+O . O . . . .
+. O . . . . .
+. X O X . . .
+. X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (1, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . . . .
+. O . . . . .
+. X O X . . .
+. X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 210
+**Board state after AI's move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O . . . . .
+. X O X . . .
+. X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (5, 0).
+**Board state after the move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O . . . . .
+. X O X . . .
+X X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Negamax
+AI evaluated move with score: 522
+**Board state after AI's move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O . O . . .
+. X O X . . .
+X X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O X O . . .
+. X O X . . .
+X X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Negamax
+AI evaluated move with score: 601
+**Board state after AI's move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O X O . . .
+. X O X O . .
+X X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (3, 4).
+**Board state after the move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O X O X . .
+. X O X O . .
+X X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (3, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 697
+**Board state after AI's move:**
+```
+. . . . . . .
+. X . O . . .
+O . O . O . .
+. O X O X O .
+. X O X O . .
+X X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (2, 3).
+**Board state after the move:**
+```
+. . . . . . .
+. X . O . . .
+O . O X O . .
+. O X O X O .
+. X O X O . .
+X X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (4, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 618
+**Board state after AI's move:**
+```
+. . . . . . .
+. X . O . . .
+O . O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X . .
+. X . X O . .
+```
+
+Player 'X' placed at position (1, 2).
+**Board state after the move:**
+```
+. . . . . . .
+. X X O . . .
+O . O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X . .
+. X . X O . .
+```
+
+AI 'O' placed at position (5, 5).
+Algorithm used: Negamax
+AI evaluated move with score: 327
+**Board state after AI's move:**
+```
+. . . . . . .
+. X X O . . .
+O . O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X O .
+. X . X O . .
+```
+
+Player 'X' placed at position (6, 5).
+**Board state after the move:**
+```
+. . . . . . .
+. X X O . . .
+O . O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X O .
+. X . X O X .
+```
+
+AI 'O' placed at position (6, 2).
+Algorithm used: Negamax
+AI evaluated move with score: 327
+**Board state after AI's move:**
+```
+. . . . . . .
+. X X O . . .
+O . O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X O .
+. X O X O X .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. X X O . . .
+O X O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X O .
+. X O X O X .
+```
+
+AI 'O' placed at position (5, 6).
+Algorithm used: Negamax
+AI evaluated move with score: 218
+**Board state after AI's move:**
+```
+. . . . . . .
+. X X O . . .
+O X O X O . .
+. O X O X O .
+. X O X O O .
+X X X O X O O
+. X O X O X .
+```
+
+Player 'X' placed at position (2, 5).
+**Board state after the move:**
+```
+. . . . . . .
+. X X O . . .
+O X O X O X .
+. O X O X O .
+. X O X O O .
+X X X O X O O
+. X O X O X .
+```
+
+## New Game Started: 7x7 Grid, Mode: Player vs Computer, Algorithm: Minimax
+Player 'X' placed at position (5, 2).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . X . . . .
+. . . . . . .
+```
+
+AI 'O' placed at position (3, 4).
+Algorithm used: Minimax
+AI evaluated move with score: -18
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . O . .
+. . . . . . .
+. . X . . . .
+. . . . . . .
+```
+
+Player 'X' placed at position (4, 3).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . O . .
+. . . X . . .
+. . X . . . .
+. . . . . . .
+```
+
+AI 'O' placed at position (6, 1).
+Algorithm used: Minimax
+AI evaluated move with score: -23
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . O . .
+. . . X . . .
+. . X . . . .
+. O . . . . .
+```
+
+Player 'X' placed at position (5, 4).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . . . . .
+. . . . O . .
+. . . X . . .
+. . X . X . .
+. O . . . . .
+```
+
+AI 'O' placed at position (2, 3).
+Algorithm used: Minimax
+AI evaluated move with score: -103
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . O . . .
+. . . . O . .
+. . . X . . .
+. . X . X . .
+. O . . . . .
+```
+
+Player 'X' placed at position (6, 3).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . O . . .
+. . . . O . .
+. . . X . . .
+. . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (4, 5).
+Algorithm used: Minimax
+AI evaluated move with score: -111
+**Board state after AI's move:**
+```
+. . . . . . .
+. . . . . . .
+. . . O . . .
+. . . . O . .
+. . . X . O .
+. . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (5, 0).
+**Board state after the move:**
+```
+. . . . . . .
+. . . . . . .
+. . . O . . .
+. . . . O . .
+. . . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (1, 2).
+Algorithm used: Minimax
+AI evaluated move with score: -18
+**Board state after AI's move:**
+```
+. . . . . . .
+. . O . . . .
+. . . O . . .
+. . . . O . .
+. . . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (3, 2).
+**Board state after the move:**
+```
+. . . . . . .
+. . O . . . .
+. . . O . . .
+. . X . O . .
+. . . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (4, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 87
+**Board state after AI's move:**
+```
+. . . . . . .
+. . O . . . .
+. . . O . . .
+. . X . O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (3, 0).
+**Board state after the move:**
+```
+. . . . . . .
+. . O . . . .
+. . . O . . .
+X . X . O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (3, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 94
+**Board state after AI's move:**
+```
+. . . . . . .
+. . O . . . .
+. . . O . . .
+X . X O O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (2, 1).
+**Board state after the move:**
+```
+. . . . . . .
+. . O . . . .
+. X . O . . .
+X . X O O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (3, 1).
+Algorithm used: Minimax
+AI evaluated move with score: 60
+**Board state after AI's move:**
+```
+. . . . . . .
+. . O . . . .
+. X . O . . .
+X O X O O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (1, 0).
+**Board state after the move:**
+```
+. . . . . . .
+X . O . . . .
+. X . O . . .
+X O X O O . .
+. O . X . O .
+X . X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (4, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 155
+**Board state after AI's move:**
+```
+. . . . . . .
+X . O . . . .
+. X . O . . .
+X O X O O . .
+. O O X . O .
+X . X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (5, 1).
+**Board state after the move:**
+```
+. . . . . . .
+X . O . . . .
+. X . O . . .
+X O X O O . .
+. O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (2, 2).
+Algorithm used: Minimax
+AI evaluated move with score: 376
+**Board state after AI's move:**
+```
+. . . . . . .
+X . O . . . .
+. X O O . . .
+X O X O O . .
+. O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (4, 0).
+**Board state after the move:**
+```
+. . . . . . .
+X . O . . . .
+. X O O . . .
+X O X O O . .
+X O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (1, 3).
+Algorithm used: Minimax
+AI evaluated move with score: 596
+**Board state after AI's move:**
+```
+. . . . . . .
+X . O O . . .
+. X O O . . .
+X O X O O . .
+X O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (2, 0).
+**Board state after the move:**
+```
+. . . . . . .
+X . O O . . .
+X X O O . . .
+X O X O O . .
+X O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (2, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 796
+**Board state after AI's move:**
+```
+. . . . . . .
+X . O O . . .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X . X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (5, 3).
+**Board state after the move:**
+```
+. . . . . . .
+X . O O . . .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (0, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 863
+**Board state after AI's move:**
+```
+. . . . O . .
+X . O O . . .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (1, 4).
+**Board state after the move:**
+```
+. . . . O . .
+X . O O X . .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (1, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 938
+**Board state after AI's move:**
+```
+. . . . O . .
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (0, 3).
+**Board state after the move:**
+```
+. . . X O . .
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (0, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 1209
+**Board state after AI's move:**
+```
+. . . X O O .
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (0, 2).
+**Board state after the move:**
+```
+. . X X O O .
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (0, 6).
+Algorithm used: Minimax
+AI evaluated move with score: 879
+**Board state after AI's move:**
+```
+. . X X O O O
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+Player 'X' placed at position (0, 1).
+**Board state after the move:**
+```
+. X X X O O O
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . .
+. O . X . . .
+```
+
+AI 'O' placed at position (5, 6).
+Algorithm used: Minimax
+AI evaluated move with score: 861
+**Board state after AI's move:**
+```
+. X X X O O O
+X . O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . O
+. O . X . . .
+```
+
+Player 'X' placed at position (1, 1).
+**Board state after the move:**
+```
+. X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . O
+. O . X . . .
+```
+
+AI 'O' placed at position (6, 0).
+Algorithm used: Minimax
+AI evaluated move with score: 860
+**Board state after AI's move:**
+```
+. X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . O
+O O . X . . .
+```
+
+Player 'X' placed at position (0, 0).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X . O .
+X X X X X . O
+O O . X . . .
+```
+
+AI 'O' placed at position (4, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 982
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X O O .
+X X X X X . O
+O O . X . . .
+```
+
+Player 'X' placed at position (6, 2).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X O O .
+X X X X X . O
+O O X X . . .
+```
+
+AI 'O' placed at position (6, 4).
+Algorithm used: Minimax
+AI evaluated move with score: 1009
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X O O .
+X X X X X . O
+O O X X O . .
+```
+
+Player 'X' placed at position (5, 5).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O . .
+X O O X O O .
+X X X X X X O
+O O X X O . .
+```
+
+AI 'O' placed at position (3, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 810
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O . .
+X O X O O O .
+X O O X O O .
+X X X X X X O
+O O X X O . .
+```
+
+Player 'X' placed at position (2, 5).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O X .
+X O X O O O .
+X O O X O O .
+X X X X X X O
+O O X X O . .
+```
+
+AI 'O' placed at position (3, 6).
+Algorithm used: Minimax
+AI evaluated move with score: 690
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O X .
+X O X O O O O
+X O O X O O .
+X X X X X X O
+O O X X O . .
+```
+
+Player 'X' placed at position (4, 6).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O X .
+X O X O O O O
+X O O X O O X
+X X X X X X O
+O O X X O . .
+```
+
+AI 'O' placed at position (2, 6).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O .
+X X O O O X O
+X O X O O O O
+X O O X O O X
+X X X X X X O
+O O X X O . .
+```
+
+Player 'X' placed at position (1, 6).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O X
+X X O O O X O
+X O X O O O O
+X O O X O O X
+X X X X X X O
+O O X X O . .
+```
+
+AI 'O' placed at position (6, 5).
+Algorithm used: Minimax
+AI evaluated move with score: 0
+**Board state after AI's move:**
+```
+X X X X O O O
+X X O O X O X
+X X O O O X O
+X O X O O O O
+X O O X O O X
+X X X X X X O
+O O X X O O .
+```
+
+Player 'X' placed at position (6, 6).
+**Board state after the move:**
+```
+X X X X O O O
+X X O O X O X
+X X O O O X O
+X O X O O O O
+X O O X O O X
+X X X X X X O
+O O X X O O X
+```
+
+Game over: It's a draw!
+
