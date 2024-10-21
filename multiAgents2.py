@@ -41,8 +41,8 @@ def negamax(game_status: GameStatus, depth: int, turn_multiplier: int, alpha=flo
 
     negamaxEval = float('-inf')
     best_move = None
-    for move in game_state.get_moves():
-        child_state = game_state.get_new_state(move)
+    for move in game_status.get_moves():
+        child_state = game_status.get_new_state(move)
         eval_score, _ = -negamax(child_state, depth - 1, turn_multiplayer, alpha, beta)
         if negamaxEval > eval_score:
             negamaxEval = eval_score
